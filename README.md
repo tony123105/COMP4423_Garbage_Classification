@@ -21,7 +21,7 @@ This project implements and evaluates traditional machine learning approaches fo
 Three feature extraction methods were implemented and compared:
 1.  **Histogram of Oriented Gradients (HOG):** Captures shape-based patterns. Effective for items with distinct shapes like bottles, cans, and boxes. Visualized in `output/hog_feature_space.png`.
 2.  **Local Binary Patterns (LBP):** Captures global texture patterns. Useful for items like paper, clothes, and biological waste. Visualized in `output/lbp_feature_space.png`.
-3.  **Scale-Invariant Feature Transform (SIFT):** Detects local keypoints invariant to scale and rotation, using a Bag of Visual Words (BoVW) approach (100 visual words)[cite: 35, 36]. Effective for items with distinct local features or labels. Visualized in `output/sift_feature_space.png`.
+3.  **Scale-Invariant Feature Transform (SIFT):** Detects local keypoints invariant to scale and rotation, using a Bag of Visual Words (BoVW) approach (100 visual words). Effective for items with distinct local features or labels. Visualized in `output/sift_feature_space.png`.
 
 Feature visualizations for sample images are available in `output/feature_visualization.png`.
 
@@ -34,7 +34,7 @@ Three classifiers were trained and evaluated for each feature type:
 
 ### Ensemble Method
 
-* A soft voting ensemble classifier was created, combining the predictions (based on probability) of all nine individual models (3 features x 3 classifiers)[cite: 62]. All models were weighted equally.
+* A soft voting ensemble classifier was created, combining the predictions (based on probability) of all nine individual models (3 features x 3 classifiers). All models were weighted equally.
 
 ## Key Results
 
