@@ -1,0 +1,20 @@
+Model: Ensemble
+Test accuracy: 0.6325
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     battery       0.75      0.60      0.67        40
+  biological       0.63      0.68      0.65        40
+   cardboard       0.70      0.57      0.63        40
+     clothes       0.63      0.97      0.76        40
+       glass       0.53      0.45      0.49        40
+       metal       0.63      0.47      0.54        40
+       paper       0.65      0.65      0.65        40
+     plastic       0.45      0.50      0.48        40
+       shoes       0.68      0.65      0.67        40
+       trash       0.70      0.78      0.74        40
+
+    accuracy                           0.63       400
+   macro avg       0.64      0.63      0.63       400
+weighted avg       0.64      0.63      0.63       400

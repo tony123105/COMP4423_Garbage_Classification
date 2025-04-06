@@ -1,0 +1,11 @@
+Model/Classifier,Accuracy
+hog_svm,51.31%
+hog_knn,46.19%
+hog_rf,46.44%
+lbp_svm,43.25%
+lbp_knn,39.38%
+lbp_rf,41.31%
+sift_svm,38.50%
+sift_knn,28.38%
+sift_rf,39.44%
+Ensemble Model,63.25%

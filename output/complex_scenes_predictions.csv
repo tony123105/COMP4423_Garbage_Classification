@@ -1,0 +1,5 @@
+Image,hog_svm,hog_knn,hog_rf,lbp_svm,lbp_knn,lbp_rf,sift_svm,sift_knn,sift_rf,ensemble
+Beach pollution.jpg,cardboard,paper,cardboard,biological,clothes,paper,shoes,shoes,biological,paper
+Messy kitchen with Garbage.jpeg,paper,cardboard,paper,biological,biological,biological,biological,biological,biological,paper
+Office desk with trash.jpg,paper,cardboard,paper,clothes,clothes,clothes,biological,biological,paper,paper
+Restaurant table leftovers.jpeg,biological,cardboard,biological,biological,biological,biological,biological,biological,paper,biological

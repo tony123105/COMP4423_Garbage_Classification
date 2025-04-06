@@ -1,0 +1,20 @@
+Model: LBP+SVM
+Test accuracy: 0.4200
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     battery       0.58      0.45      0.51        40
+  biological       0.56      0.45      0.50        40
+   cardboard       0.34      0.35      0.35        40
+     clothes       0.35      0.45      0.39        40
+       glass       0.35      0.33      0.34        40
+       metal       0.35      0.45      0.40        40
+       paper       0.50      0.57      0.53        40
+     plastic       0.40      0.45      0.42        40
+       shoes       0.34      0.25      0.29        40
+       trash       0.50      0.45      0.47        40
+
+    accuracy                           0.42       400
+   macro avg       0.43      0.42      0.42       400
+weighted avg       0.43      0.42      0.42       400

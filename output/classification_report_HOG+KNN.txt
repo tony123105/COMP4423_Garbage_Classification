@@ -1,0 +1,20 @@
+Model: HOG+KNN
+Test accuracy: 0.4675
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     battery       0.56      0.50      0.53        40
+  biological       0.40      0.25      0.31        40
+   cardboard       0.29      0.38      0.33        40
+     clothes       0.51      0.68      0.58        40
+       glass       0.57      0.40      0.47        40
+       metal       0.50      0.38      0.43        40
+       paper       0.47      0.57      0.52        40
+     plastic       0.38      0.45      0.41        40
+       shoes       0.52      0.40      0.45        40
+       trash       0.55      0.68      0.61        40
+
+    accuracy                           0.47       400
+   macro avg       0.47      0.47      0.46       400
+weighted avg       0.47      0.47      0.46       400

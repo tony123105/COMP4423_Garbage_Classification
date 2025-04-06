@@ -1,0 +1,20 @@
+Model: SIFT+RF
+Test accuracy: 0.3950
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     battery       0.34      0.38      0.36        40
+  biological       0.47      0.60      0.53        40
+   cardboard       0.33      0.47      0.39        40
+     clothes       0.45      0.47      0.46        40
+       glass       0.32      0.23      0.26        40
+       metal       0.38      0.20      0.26        40
+       paper       0.46      0.45      0.46        40
+     plastic       0.50      0.25      0.33        40
+       shoes       0.25      0.35      0.29        40
+       trash       0.52      0.55      0.54        40
+
+    accuracy                           0.40       400
+   macro avg       0.40      0.40      0.39       400
+weighted avg       0.40      0.40      0.39       400

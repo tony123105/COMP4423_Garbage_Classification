@@ -1,0 +1,20 @@
+Model: SIFT+KNN
+Test accuracy: 0.3050
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     battery       0.29      0.23      0.25        40
+  biological       0.26      0.78      0.39        40
+   cardboard       0.48      0.25      0.33        40
+     clothes       0.35      0.55      0.43        40
+       glass       0.19      0.07      0.11        40
+       metal       0.27      0.07      0.12        40
+       paper       0.30      0.42      0.35        40
+     plastic       0.30      0.07      0.12        40
+       shoes       0.20      0.23      0.21        40
+       trash       0.56      0.38      0.45        40
+
+    accuracy                           0.30       400
+   macro avg       0.32      0.31      0.28       400
+weighted avg       0.32      0.30      0.28       400

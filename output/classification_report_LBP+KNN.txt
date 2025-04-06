@@ -1,0 +1,20 @@
+Model: LBP+KNN
+Test accuracy: 0.3675
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     battery       0.48      0.38      0.42        40
+  biological       0.41      0.33      0.36        40
+   cardboard       0.34      0.28      0.31        40
+     clothes       0.34      0.53      0.42        40
+       glass       0.37      0.17      0.24        40
+       metal       0.38      0.38      0.38        40
+       paper       0.38      0.45      0.41        40
+     plastic       0.33      0.33      0.33        40
+       shoes       0.26      0.30      0.28        40
+       trash       0.42      0.55      0.48        40
+
+    accuracy                           0.37       400
+   macro avg       0.37      0.37      0.36       400
+weighted avg       0.37      0.37      0.36       400
